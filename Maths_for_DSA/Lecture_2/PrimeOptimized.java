@@ -52,7 +52,7 @@ public class PrimeOptimized {
     if (num == 2) return true;
     if (num % 2 == 0) return false;
 
-    // check only odd numbers till sqrt(num)
+    //  check only odd numbers till sqrt(num)
     for (int i = 3; i * i <= num; i += 2) {
       if (num % i == 0) {
         return false;
