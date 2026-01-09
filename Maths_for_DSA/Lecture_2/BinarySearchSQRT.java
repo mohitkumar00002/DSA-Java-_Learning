@@ -27,7 +27,7 @@ public class BinarySearchSQRT {
       }
 
       if ((long) mid * mid < n) {
-        root = mid;        // store possible answer
+        root = mid;          // store possible answer
         start = mid + 1;
       } else {
         end = mid - 1;
